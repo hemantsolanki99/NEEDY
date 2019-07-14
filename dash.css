@@ -1,0 +1,150 @@
+::-webkit-scrollbar { 
+    display: none; 
+}
+
+.logo_des{
+    padding: 0;
+    margin: 0;
+    width: 150px;
+}
+
+body {
+	font-family: "Roboto", sans-serif;
+	background: linear-gradient(180deg, #ffffff 0%, #ffffff 100%);
+}
+
+.navigators-nav {
+	background: linear-gradient(180deg, #667eea 0%, #764ba2 100%);
+}
+
+body .navbar-dark .navbar-nav .nav-link {
+	font-size: 18px;
+	color: white;
+}
+
+#panel {
+	padding: 100px;
+}
+
+#panel .container .row a h5 {
+	font-size: 18px;
+	color: black;
+}
+
+.b {
+	color: steelblue;
+}
+
+#panel h5, h4 {
+	padding: 10px;
+}
+
+#panel a:hover{
+	text-decoration: none;
+}
+
+#panel h5:hover {
+	background: linear-gradient(to left, #5ee7df 0%, #b490ca 100%);
+}
+
+#panel .container .row .col-md-9 .col-md-4 {
+	text-align: center;
+	padding: 15px;
+}
+
+#panel img {
+	height: 250px;
+	width: 250px;
+}
+
+#panel .container .row .col-md-9 .col-md-4:hover {
+	background: linear-gradient(to left, #5ee7df 0%, #b490ca 100%);
+	box-shadow: 2px 4px transparent;
+	top: 4px;
+}
+
+#showFeed {
+	display: none;
+	padding: 10px;
+	margin:0 0 50px 0;
+	width: 100%;
+	background: linear-gradient(180deg, #5ee7df 0%, #b490ca 100%);
+	border: 1px solid steelblue;
+}
+
+#newFeed {
+	display: none;
+	position: absolute;
+	z-index: 10;
+	margin: 0 auto;
+	width: 100%;
+	padding: 30px;
+	background:	linear-gradient(180deg, #5ee7df 0%, #b490ca 100%);
+	border: 1px solid steelblue;
+	border-radius: 5px;
+}
+
+#newFeed select {
+	padding: 8px;
+	border: none;
+	border-radius: 5px;
+}
+
+#newFeed input:hover, #newFeed textarea:hover {
+	border: 3px solid green;
+}
+#footer {
+	background: black;
+	color: white;
+/*	padding: 50px;+*/
+}
+
+#copy, #design {
+	text-align: center;
+	margin: 30px;
+}
+
+#footer .container .col-md-6 {
+	padding: 20px;
+}
+
+#footer .container .col-md-6 .fab:hover {
+	font-size: 24px;
+}
+
+#myForm {
+	display: none;
+	position: absolute;
+	z-index: 10;
+	margin: 50px 0 50px 1100px;
+	padding: 30px;
+	background:	black;
+	border: 1px solid steelblue;
+	border-radius: 5px;
+}
+
+#myForm:hover {
+	box-shadow: 2px 4px transparent;
+	top: 4px;	
+}
+
+#myForm input:hover {
+	border: 3px solid green;
+}
+
+#replyForm input:hover , #replyForm textarea:hover {
+	border: 2px solid steelblue;
+}
+
+.body_cont{
+    width: 100%;
+    left: 0;
+    min-height: 800px;
+    background-image: url("images/background/back5.png");
+    position: relative;
+    background-size: 100% 100%;
+}
+
+.body_main{
+margin-top: 4.8%;
+}

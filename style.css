@@ -1,0 +1,146 @@
+body {
+	font-family: "Roboto", sans-serif;
+}
+
+#top {
+	background-image: url("images/background/back8.jpg");
+	background-size: cover;
+	height: 800px;
+	margin: 0;
+	color: white;
+}
+
+#top .container {
+	padding-top: 200px;
+}
+
+nav {
+	background: linear-gradient(180deg, #667eea 0%, #764ba2 100%);
+}
+
+body .navbar-dark .navbar-nav .nav-link {
+	font-size: 18px;
+	color: white;
+}
+
+#know, #review, #about, #footer {
+/*	padding: 50px;*/
+	/*margin-top: 30px;*/
+	font-size: 20px;
+}
+
+#know {
+	background: linear-gradient(180deg, #ffffff 0%, #ffffff 100%);
+	padding: 100px;
+}
+
+#review {
+	background: linear-gradient(to left, #5ee7df 0%, #b490ca 100%);
+	padding: 100px;
+}
+
+#about {
+	background: linear-gradient(180deg, #ffffff 0%, #ffffff 100%);
+	padding: 100px;
+}
+
+#review img {
+	border-radius: 50%;
+}
+
+#know h2 , #review h2 , #about h2 {
+	margin-bottom: 20px;
+	text-align: center;
+}
+
+#review h4, #about h4 {
+	text-align: center;
+}
+
+#review .row .col-md-4 {
+	padding: 20px;
+}
+
+#about .row .col.md-4 {
+	padding-top: 20px;
+}
+
+#about .row img {
+	margin: 20px;
+	border-radius: 50%;
+}
+
+#review .row .col-md-4:hover {
+	background: linear-gradient(180deg, #ffffff 0%, #ffffff 100%);
+	box-shadow: 2px 4px transparent;
+	top: 4px;
+}
+
+#about .row .col-md-4:hover {
+	background: linear-gradient(to left, #5ee7df 0%, #b490ca 100%);
+	box-shadow: 2px 4px transparent;
+	top: 4px;	
+}
+
+#footer {
+	background: black;
+	color: white;
+/*	padding: 50px;+*/
+}
+
+#copy, #design {
+	text-align: center;
+	margin: 30px;
+}
+
+#footer .container .col-md-6 {
+	padding: 20px;
+}
+
+#footer .container .col-md-6 .fab:hover {
+	font-size: 24px;
+}
+
+#myForm {
+	display: none;
+	position: absolute;
+	z-index: 10;
+	margin: 50px 0 50px 1100px;
+	padding: 30px;
+	background:	black;
+	border: 1px solid steelblue;
+	border-radius: 5px;
+}
+
+#myForm:hover {
+	box-shadow: 2px 4px transparent;
+	top: 4px;	
+}
+
+#myForm input:hover {
+	border: 3px solid green;
+}
+
+#replyForm input:hover , #replyForm textarea:hover {
+	border: 2px solid steelblue;
+}
+
+
+.back_reg{
+    background-image: url("images/background/back.png");
+    background-repeat: no-repeat;
+    overflow: hidden;
+    width: 100%;
+    min-height: 700px;
+    background-size: 100% 100%;
+    position: relative;
+}
+
+.front_reg{
+    background-color: rgba(0, 0, 0, 0.75);
+    min-height: 700px;
+}
+
+.front_reg .container-fluid{
+    padding-top: 100px;
+}
